@@ -88,6 +88,12 @@ cd src/elastic
 python train.py --dataset cremi --root_dataset /path/to/train_data --base_path /path/to/result
 ```
 
+# Availability of Data
+The complete experimental data for vEMRec is stored on Alibaba Cloud. You may use [ossutil](https://github.com/aliyun/ossutil) to access and download our datasets.  
+Instructions for accessing the data, along with the required credentials, can be obtained from the following link:  
+https://drive.google.com/file/d/10qabXChpLBCOJyYXqxvqq_Xau8fsWm7E/view?usp=sharing
+
+
 [^1]: [CREMI Dataset](https://cremi.org/)
 [^2]: [OpenOrganelle Dataset](https://openorganelle.janelia.org/)
 
