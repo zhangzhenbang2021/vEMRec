@@ -15,6 +15,14 @@ conda activate vEMRec
 pip install -r requirements.txt
 ```
 
+### Step 3: Pre-trained Models
+
+For rigid alignment, you need to download `superpoint_v1.pth` from [this link](https://drive.google.com/file/d/1lwu904dn4c-7-iLwobQ5GSd0mX_8aohP/view?usp=drive_link) and place it in the `src/rigid` folder.
+Similarly, download `epoch_70_checkpoint.pth.tar` from [this link](https://drive.google.com/file/d/1Y4QgWxEiAoMeBeURSmC54NgPM50R8J3o/view?usp=drive_link) and place it in the `src/rigid/edge` folder.
+
+For elastic registration, we provide two pre-trained models, trained on the CREMI and OpenOrganelle datasets. These can be downloaded from [this folder](https://drive.google.com/drive/folders/1TaD_dh8WzLLheLXYvaRbLFOjDOovMUxi?usp=drive_link) and placed in the `pre_model` folder.
+
+
 ---
 
 # Walkthrough
