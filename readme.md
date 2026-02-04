@@ -1,4 +1,4 @@
-# Overview
+# vEMRec: High-Resolution Volume Electron Microscopy Reconstruction Based on Structure-Preserving and High-Fidelity 3D Alignment (Advanced Science)
 
 Here, we introduce vEMRec, a feature-based 3D rigid alignment and Gaussian-filter-based 3D elastic registration method aimed at eliminating rigid misalignment and nonlinear distortion to restore the true 3D structure of biological specimens. The method has two key stages: sequential rigid alignment to correct rotation and displacement, followed by Gaussian filtering to address nonlinear distortions. During rigid alignment, stable edge features are extracted and matched to compute transformation parameters. In the elastic registration phase, a 1D Gaussian filter is applied to decouple nonlinear distortions from natural deformations. This approach effectively corrects distortions while preserving the integrity of the biological structure, providing a strong foundation for further analysis.
 
@@ -96,4 +96,6 @@ https://drive.google.com/file/d/10qabXChpLBCOJyYXqxvqq_Xau8fsWm7E/view?usp=shari
 
 [^1]: [CREMI Dataset](https://cremi.org/)
 [^2]: [OpenOrganelle Dataset](https://openorganelle.janelia.org/)
+
+
 
