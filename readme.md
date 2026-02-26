@@ -91,5 +91,16 @@ python train.py --dataset cremi --root_dataset /path/to/train_data --base_path /
 [^1]: [CREMI Dataset](https://cremi.org/)
 [^2]: [OpenOrganelle Dataset](https://openorganelle.janelia.org/)
 
+# Citation
+```bash
+@article{10.1002/advs.202519098,
+  author = {Zhang, Z. and Li, H. and Yang, Z. and Xu, Z. and Sun, D. and Gao, X. and Zhang, F. and Han, R.},
+  title = {vEMRec: High‐Resolution Volume Electron Microscopy Reconstruction Based on Structure‐Preserving and High‐Fidelity 3D Alignment},
+  journal = {Advanced Science},
+  year = {2026},
+  doi = {10.1002/advs.202519098}
+}
+```
+
 
 
